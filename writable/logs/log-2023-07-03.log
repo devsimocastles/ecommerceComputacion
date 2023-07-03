@@ -1,0 +1,19 @@
+CRITICAL - 2023-07-03 20:03:26 --> Unsupported operand types: string + string
+in APPPATH\Views\index.php on line 7.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Inicio.php(8): view('index')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inicio->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 20:19:23 --> syntax error, unexpected token ";"
+in APPPATH\Views\index.php on line 10.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Inicio.php(8): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Inicio->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
