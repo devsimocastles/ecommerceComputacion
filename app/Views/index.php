@@ -37,7 +37,16 @@ Dentro del .rar o .zip se debe enviar el/los archivos php y un archivo en el cua
         <header>
             <h2>Lista de Productos</h2>
         </header>
-
+        <div class="contenedor">
+            <?php foreach ($productos as $producto) {?>
+                <article class="productoCard">
+                    <h3 class="productoTitulo"><?php echo $producto->nombre ?></h3>
+                    <span class="precio"><?php echo $producto->precio?>$</span>
+                    <img src="<?php echo $producto->ruta_imagen ?>" alt="">
+                    <a href="#">Detalles del producto</a>
+                </article>
+            <?php } ?>
+        </div>
     </section>
 </body>
 </html>
